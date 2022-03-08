@@ -1,0 +1,3 @@
+`az storage container create -n tfstate --account-name terraformchallenge5 --account-key sMO7SGMdHmxszaImdCRVhwH4Jcu4aVwWXOXCaWP8gpOExiPyur54eqOHRVBV88tbElHM3OoHu0bj3qkk89P3aw==`  
+  
+`terraform init -backend-config="storage_account_name=terraformchallenge5" -backend-config="container_name=tfstate" -backend-config="access_key=sMO7SGMdHmxszaImdCRVhwH4Jcu4aVwWXOXCaWP8gpOExiPyur54eqOHRVBV88tbElHM3OoHu0bj3qkk89P3aw==" -backend-config="key=codelab.microsoft.tfstate"`  
